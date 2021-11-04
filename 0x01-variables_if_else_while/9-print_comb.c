@@ -6,18 +6,14 @@
 int main(void)
 {
 	int n;
-	int c = ',';
 
 	for (n = '0'; n <= '9'; n++)
 	{
+		putchar(n);
 		if (n < '9')
 		{
-			putchar(n);
-			putchar(c);
-		}
-		else if (n == '9')
-		{
-			putchar(n);
+			putchar(44);
+			putchar(32);
 		}
 	}
 	putchar('\n');
