@@ -5,12 +5,18 @@
  */
 int main(void)
 {
-	int n = '30';
+	int n = 0;
+	char n2 = 'a';
 
-	while (n <= '39')
+	while (n <= 9)
 	{
 		putchar(n);
 		n++;
+	}
+	while (n2 <= 'e')
+	{
+		putchar(n2);
+		n2++;
 	}
 	putchar('\n');
 	return (0);
