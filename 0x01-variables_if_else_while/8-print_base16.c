@@ -13,7 +13,7 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-	while (n2 <= 'e')
+	while (n2 <= 'f')
 	{
 		putchar(n2);
 		n2++;
