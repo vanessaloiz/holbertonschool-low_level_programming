@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main: Main block print the alphabt
+ * main - Main block print the alphabt
  * Return: 0
  */
 int main(void)
