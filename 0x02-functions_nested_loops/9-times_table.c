@@ -14,6 +14,7 @@ void times_table(void)
 			if (wid == 0)
 			{
 				_putchar(48);
+				continue;
 			}
 			res = len * wid;
 			_putchar(',');
