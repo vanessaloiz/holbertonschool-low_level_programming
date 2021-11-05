@@ -10,23 +10,26 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		for (n1 = '0'; n1 <= '8'; n1++)
+		for (n1 = '0'; n1 <= '9'; n1++)
 		{
 			for (n2 = n; n2 <= '9'; n2++)
 			{
 				for (n3 = '0'; n3 <= '9'; n3++)
 				{
-					p1 = n + n1;
-					p2 = n2 + n3;
+					p1 = n * 10 + n1;
+					p2 = n2 * 10 + n3;
 					if (p2 > p1)
 					{
-						putchar(n);
-						putchar(n1);
-						putchar(' ');
-						putchar(n2);
-						putchar(n3);
-						putchar(',');
-						putchar(' ');
+					putchar(n);
+					putchar(n1);
+					putchar(' ');
+					putchar(n2);
+					putchar(n3);
+					if (!(n == '9' && n1 == '8' && n2 == '9' && n3 == '9'))
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
