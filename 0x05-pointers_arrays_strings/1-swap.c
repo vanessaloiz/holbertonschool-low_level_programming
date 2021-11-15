@@ -7,7 +7,7 @@
  */
 void swap_int(int *a, int *b)
 {
-	int hdfi = *a;
+	int hdi = *a;
 
 	*a = *b;
 	*b = hdfi;
