@@ -10,5 +10,5 @@ void swap_int(int *a, int *b)
 	int hdi = *a;
 
 	*a = *b;
-	*b = hdfi;
+	*b = hdi;
 }
