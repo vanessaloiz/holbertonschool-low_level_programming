@@ -7,7 +7,7 @@
 char *cap_string(char *str)
 {
 	int idx;
-	
+
 	if (str[0] >= 'a' && str[0] <= 'z')
 		str[0] -= 32;
 	for (idx = 0; str[idx] != '\0'; idx++)
